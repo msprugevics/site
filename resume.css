@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+*{
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #55FFFF;
+}
+#backbut{
+    font-size: 17px;
+    justify-self: center;
+    display: block;
+    margin-top: 20px;
+    padding: 0;
+    transition: color 0.25s;
+}
+#backbut:hover{
+    color: #16c60c;
+}
+#projectlink{
+    color: #55FFFF;
+    transition: color 0.25s;
+}
+#projectlink:hover{
+    color: #FF55FF;
+}
+#outerlink{
+    color: #55FFFF;
+    transition: color 0.25s;
+}
+#outer:hover{
+    color: #ffffff;
+}
+body{
+    justify-items: center;
+    width: 100dvw;
+    height: 100dvh;
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+}
+h1{
+    margin-top: 15px;
+    font-size: 3dvw;
+}
+@media only screen and (max-width: 1236px){
+    h1{
+        font-size: 5dvw;
+    }
+}
+@media only screen and (max-width: 800px){
+    h1{
+        font-size: 7dvw;
+    }
+}
+@media only screen and (max-width: 600px){
+    h1{
+        font-size: 10dvw;
+        text-align: center;
+        gap: 7px;
+        padding-bottom: 25px;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    table{
+        width: 100%;
+        height: auto;
+        border-collapse: collapse;
+        font-size: 2.9dvw;
+        border: none; /* remove the black border override */
+    }
+
+    /* Re‑apply the dashed neon borders */
+    table, tr, td, th{
+        border: 2px dashed #55FFFF;
+    }
+
+    td, tr{
+        padding: 10px;
+    }
+
+    body{
+        overflow: scroll;
+    }
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+*{
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FF5555;
+}
+#backbut{
+    font-size: 17px;
+    justify-self: center;
+    display: block;
+    margin-top: 20px;
+    padding: 0;
+    transition: color 0.25s;
+}
+#backbut:hover{
+    color: #16c60c;
+}
+body{
+    justify-items: center;
+    width: 100dvw;
+    height: 100dvh;
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+}
+h1{
+    margin-top: 15px;
+    font-size: 3dvw;
+}
+@media only screen and (max-width: 1236px){
+    h1{
+        font-size: 5dvw;
+    }
+}
+@media only screen and (max-width: 800px){
+    h1{
+        font-size: 7dvw;
+    }
+}
+@media only screen and (max-width: 600px){
+    h1{
+        font-size: 10dvw;
+        text-align: center;
+        gap: 7px;
+        border-bottom: solid 3px;
+        padding-bottom: 25px;
+        width: 100%;
+    }
+}
