@@ -1,0 +1,38 @@
+/* firefox-opera-fixes.css - minimal browser-specific patch for Firefox/Opera */
+
+/* Apply only in Firefox */
+@supports (-moz-appearance: meterbar) {
+  /* keep original layout as-is, only adjust fixed back button spacing */
+  #backbut {
+    position: fixed;
+    top: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    z-index: 999;
+  }
+
+  #backbut + h1,
+  #backbut + h2 {
+    margin-top: 50px;
+  }
+}
+
+/* Apply only in Opera (legacy) */
+@supports (-o-appearance: none) {
+  #backbut {
+    position: fixed;
+    top: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    z-index: 999;
+  }
+
+  #backbut + h1,
+  #backbut + h2 {
+    margin-top: 50px;
+  }
+}
+
+/* No other rules to keep layout identical in non-target browsers */
