@@ -4,6 +4,7 @@
     font-weight: 400;
     font-style: normal;
     color: #ffffff;
+    text-align: center;
 }
 body{
     width: 100dvw;
@@ -37,14 +38,19 @@ a{
 h1{
     font-size: 2dvw;
 }
+h2{
+    position: relative;
+}
 #holder{
     justify-content: center;
     justify-items: center;
     margin-top: 30px;
-    height: 200px;
+    height: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
+    align-items: center;
+    position: relative;
 }
 @media only screen and (max-width: 1236px){
     h1{
