@@ -26,6 +26,7 @@ td, tr{
     margin-top: 20px;
     padding: 0;
     transition: color 0.25s;
+    text-align: center;
 }
 #backbut:hover{
     color: #16c60c;
@@ -45,10 +46,14 @@ body{
     margin: 0;
     background-color: black;
     overflow: hidden;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 h1{
     margin-top: 15px;
     font-size: 3dvw;
+    text-align: center;
 }
 @media only screen and (max-width: 1400px){
     table{

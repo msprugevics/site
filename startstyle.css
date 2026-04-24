@@ -54,6 +54,7 @@ body{
 }
 h1{
     font-size: 2dvw;
+    text-align: center;
 }
 #innerorbit {
   position: absolute;

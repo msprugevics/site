@@ -12,6 +12,7 @@
     margin-top: 20px;
     padding: 0;
     transition: color 0.25s;
+    text-align: center;
 }
 #backbut:hover{
     color: #16c60c;
@@ -32,15 +33,19 @@
 }
 body{
     justify-items: center;
+    align-items: center;
     width: 100dvw;
     height: 100dvh;
     margin: 0;
     background-color: black;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 h1{
     margin-top: 15px;
     font-size: 3dvw;
+    text-align: center;
 }
 @media only screen and (max-width: 1236px){
     h1{
