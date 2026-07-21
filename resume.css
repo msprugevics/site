@@ -47,6 +47,13 @@ h1{
     font-size: 3dvw;
     text-align: center;
 }
+li{
+    max-width: 340px;
+}
+.darbini{
+    display: flex;
+    flex-direction: column;
+}
 @media only screen and (max-width: 1236px){
     h1{
         font-size: 5dvw;
