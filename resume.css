@@ -5,6 +5,7 @@
     font-style: normal;
     color: #55FFFF;
 }
+
 #backbut{
     font-size: 17px;
     justify-self: center;
@@ -49,6 +50,9 @@ h1{
 }
 li{
     max-width: 340px;
+}
+#vietina{
+    padding-bottom: 10px;
 }
 .darbini{
     display: flex;
