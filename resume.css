@@ -5,6 +5,12 @@
     font-style: normal;
     color: #55FFFF;
 }
+#noslepts{
+    display: none;
+    opacity: 0;
+    height: 0px;
+    width: 0px;
+}
 #print-but{
     margin-top: 15px;
     margin-bottom: 0;
