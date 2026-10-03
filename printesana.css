@@ -1,0 +1,118 @@
+/* Document Geometry (Latvian Legal Regulations - MK Noteikumi Nr. 558) */
+@page {
+  size: A4 portrait;
+  margin-top: 20mm;
+  margin-bottom: 20mm;
+  margin-left: 30mm;  /* Left margin for binding */
+  margin-right: 15mm;
+}
+
+/* Base Document Styles */
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Times New Roman", Times, serif !important;
+  font-size: 11pt !important;
+  line-height: 1.4 !important;
+  color: #000000 !important;
+  background: #ffffff !important;
+}
+
+/* Centered Document Header */
+.cv-header, 
+#cv-saturs > h1, 
+#cv-saturs > h2 {
+  text-align: center !important;
+}
+
+h1 {
+  font-size: 16pt !important;
+  font-weight: bold !important;
+  text-align: center !important;
+  text-transform: uppercase !important;
+  margin-top: 0 !important;
+  margin-bottom: 4pt !important;
+  padding: 0 !important;
+  letter-spacing: 1px !important;
+}
+
+h2 {
+  font-size: 13pt !important;
+  font-weight: bold !important;
+  text-align: center !important;
+  text-transform: uppercase !important;
+  margin-top: 0 !important;
+  margin-bottom: 20pt !important; /* Space under the header before table */
+  padding: 0 !important;
+  letter-spacing: 0.5px !important;
+}
+
+/* Table Structure with Expanded Vertical Gaps */
+table {
+  width: 100% !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  margin: 0 !important;
+}
+
+tr {
+  page-break-inside: avoid !important;
+  border-bottom: 0.5px solid #d0d0d0; /* Soft visual section boundary */
+}
+
+td {
+  vertical-align: top !important;
+  text-align: left !important;
+  padding-top: 12pt !important;    /* Expanded vertical gap (~1.5cm feel) */
+  padding-bottom: 12pt !important; /* Expanded vertical gap (~1.5cm feel) */
+  font-size: 11pt !important;
+  line-height: 1.4 !important;
+}
+
+/* First Column (Labels) */
+td:first-child {
+  width: 32% !important;
+  font-weight: bold !important;
+  padding-right: 12pt !important;
+}
+
+/* Second Column (Values) */
+td:last-child {
+  width: 68% !important;
+}
+
+/* Clean List Spacing */
+td ul, 
+td ol {
+  margin: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-left: 14pt !important;
+  list-style-type: disc !important;
+}
+
+td li {
+  margin: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 4pt !important; /* Spacing between bullet entries */
+  line-height: 1.4 !important;
+  text-align: left !important;
+}
+
+td li:last-child {
+  padding-bottom: 0 !important;
+}
+
+/* Paragraph Reset */
+td p, 
+td div, 
+td span {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Links */
+a {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
