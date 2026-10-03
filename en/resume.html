@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mārtiņš Spruģēvics</title>
     <link rel="stylesheet" href="../resume.css">
+    <link rel="stylesheet" href="../print.js/print.min.css">
+    <script src="../print.js/print.min.js"></script>
     <link rel="stylesheet" href="../firefox-opera-fixes.css">
     <link rel="icon" type="image/png" href="../favicon.png">
 
 </head>
 <body>
     <a href="start" id="backbut">[ RETURN TO ORBIT ]</a>
+    <button id="print-but">[Click here to print]</button>
+    <div id="cv-saturs">
     <h1>Resume</h1>
 
     <table>
@@ -31,10 +35,7 @@
             <td>
                 <ul>
                     <li>
-                        <div class="darbini">
-                            Short-form social media video filming and editing for the restaurant "Brīvdienu pica"
-                            <div>(June 2026 – September 2026)</div>
-                        </div>
+                        (June 2026 – September 2026) - Short-form social media content creation for the restaurant “Brīvdienu pica” 
                     </li>
                 </ul>
             </td>
@@ -79,7 +80,7 @@
             </td>
         </tr>
         <tr>
-            <td>Projects</td>
+            <td id="projektiignore">Projects</td>
             <td>
                 <ul>
                     <li>My projects: <a href="projects" id="outerlink">[  Here  ]</a></li>
@@ -91,7 +92,10 @@
             <td>contact@msprugevics.lv</td>
         </tr>
     </table>
+    </div>
 </body>
 
 <script src="../enback.js"></script>
+<script src="https://printjs.crabbly.com/print.min.js"></script>
+<script src="../printesana.js"></script>
 </html>
