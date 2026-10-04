@@ -5,6 +5,11 @@
     font-style: normal;
     color: #55FFFF;
 }
+td{
+    vertical-align: top;
+    max-width: 340px;
+    padding-bottom: 5px;
+}
 #noslepts{
     display: none;
     opacity: 0;
