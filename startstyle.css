@@ -38,6 +38,10 @@ body{
     color: #55FFFF;
     animation-delay: -13.5s;
 }
+.orb#a5:hover{
+    color: #FFB86C;
+    animation-delay: -18s;
+}
 #orbit{
     position: absolute;
     left: 0;
@@ -76,7 +80,7 @@ h1{
   transform: translate(-50%, -50%) rotate(0deg) translateY(-30vmin);
 
   transform-origin: center;
-  animation: orbit 18s linear infinite;
+  animation: orbit 22.5s linear infinite;
   transition: color 0.25s;
 }
 
