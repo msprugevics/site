@@ -25,8 +25,12 @@
     height: 290px;
     border: #FFB86C none 3px;
     border-radius: 3px;
+    align-items: center;
 }
-.book img:hover{
+#sig{
+    height: 384px;
+}
+#sel:hover{
     border: #fff1e2 dashed 3px;
     transition: linear all 0.25s;
 }
@@ -35,13 +39,65 @@ video{
     height: 320px;
     border: #FFB86C dashed 3px;
     border-radius: 20px;
+    justify-self: center;
+}
+#view{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    justify-items: center;
+    justify-self: center;
+    width: 60px;
+    height: 40px;
+    gap: 1px;
+    border-radius: 12px;
+    border: #FFB86C solid 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    align-self: center;
+    justify-self: center;
+    align-content: center;
+    justify-content: center;
+}
+#view img{
+    width: 25px;
+    height: 25px;
+}
+#view p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+}
+#ikonuholder{
+    align-content: center;
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-self: center;
+    justify-self: center;
+    width: 210px;
+    gap: 3px;
+    height: 44px;
 }
 #ikonina{
-    width: calc((210px / 4) - 40px);
-    height: calc((210px / 4) - 40px);
-    border-radius: 10px;
+    position: relative;
+    justify-self: center;
+    align-self: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    border: #FFB86C solid 2px;
+    padding: 0px;
+    margin-top: 4px;
 }
-.book img{
+#sel{
     border-radius: 3px;
     border: #FFB86C dashed 3px;
     width: 210px;
