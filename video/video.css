@@ -8,24 +8,33 @@
 }
 
 
-#bookgrid{
+.bookgrid{
     display: grid;
     grid-template-columns: repeat(auto-fit, 210px);
     justify-content: center;
     align-items: center; /* Align items to the start of the grid */
-    grid-auto-rows: 320px;
-    gap: 20px; /* Optional: Add some space between grid items */
+    grid-auto-rows: 384px;
+    gap: 30px; /* Optional: Add some space between grid items */
     margin-right: 5%;
     margin-left: 5%;
+}
+#selectoriir{
+    grid-auto-rows: 320px;
+    gap: 20px;
 }
 .book{
     display: flex;
     flex-direction: column;
     width: 210px;
     height: 290px;
-    border: #FFB86C none 3px;
-    border-radius: 3px;
+    border: #FFB86C solid 3px;
+    border-radius: 20px;
     align-items: center;
+    padding: 3px;
+}
+#erreer{
+    border: #FFB86C none 0px;
+    border-radius: 3px;
 }
 #sig{
     height: 384px;
